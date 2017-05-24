@@ -5,72 +5,30 @@
 	<title>
 		Die Besten Webseite des Kurses.
 	</title>
-	<style>
-		/* also koennen wir alles sehen */
-		nav, header, footer, div
-		{
-			border: 1px solid gray;
-		}
-		
-		nav 
-		{
-			float:left;
-			width: 160px;
-		}
-		
-		div.hauptinhalt
-		{
-			width: calc(100% - 170px);
-			float:right;
-			background-color: white;
-		}
-		
-		div.hauptdiv
-		{
-			margin-left: 5%;
-			margin-right: 5%;
-		}
-		
-		img.logo
-		{
-			float:left;
-			margin: 1em;
-		}
-		
-		footer
-		{
-			clear:both;
-		}
-		
-		div.clear-both
-		{
-			clear: both;
-		}
-	</style>
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="hauptdiv">
 	<header>
 		<img class="logo" width="100" height="100" src="img/logo.jpg">
-		<h1>Header!</h2>
-		
-		
-		
+		<h1>Die besten Webseite des Weltes!</h2>
+		<h3>Wir bekommen <span class="emph">alle</span> die Facebook Gefällts!!!<h3>
 		<div class="clear-both" />
-	<header>
-
+	</header>
 
 	<nav>
-		<p>Meine Nav</p>
-		<ul>
-			<li><a href="#">Link 1</a></li>
-			<li><a href="#">Link 2</a></li>
-			<li><a href="#">Link 3</a></li>
+		<ul class="nav-menu">
+			<li><a href="#">Hauptseite</a></li>
+			<li><a href="#">Wer sind uns?</a></li>
+			<li><a href="#">Warum seid ihr so überheblich???</a></li>
 		</ul>
+		<div class="clear-both" />
 	</nav>
-
+	
+	<img class="gbild" src="img/grossbild.jpg">
+	
 	<div class="hauptinhalt">
+		
 		<!-- Lorem ipsum von http://de.lipsum.com/ -->
 		<h2>Überschrift</h2>
 		<p>
@@ -80,21 +38,26 @@
 			Nam tincidunt eros eu justo dignissim vestibulum. Pellentesque finibus quis lacus in sodales. Ut eu nunc nunc. Sed porttitor tortor mauris, eget fringilla ipsum dapibus in. Nullam et eros vitae dui convallis sodales sit amet at est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent ut tempus turpis, vitae sollicitudin erat. Ut ornare turpis et vehicula consequat. Integer eu metus orci. Aenean commodo consequat ultrices. Nunc eget vehicula odio, ut pulvinar magna. Vivamus ullamcorper tellus nec bibendum commodo. Curabitur diam libero, rutrum eu justo aliquam, efficitur posuere justo. 
 		</p>
 		<h2>Überschrift</h2>
-		<p>
-			Nullam gravida pulvinar tortor. Donec est nulla, lobortis in tempor sit amet, pretium ut leo. Integer congue arcu lacus, at faucibus arcu faucibus et. Nunc pellentesque ornare erat, at faucibus ante aliquet lobortis. Ut rhoncus sed mi quis ullamcorper. Aenean eget quam id diam rhoncus porta non eu justo. Nunc tincidunt euismod tortor, at accumsan ante rutrum fringilla. Ut lacus lorem, sagittis vitae velit vel, bibendum molestie magna. Aliquam sit amet luctus ante. Praesent egestas tellus sed arcu lobortis semper. Quisque interdum mauris vitae consequat ornare.
-		</p>
-		<p>
-			Curabitur a mattis tellus. Nullam consequat urna ex, vel lobortis leo scelerisque ut. Aliquam sit amet ultrices neque. Sed convallis feugiat lorem eget scelerisque. Morbi at libero ac turpis mattis fringilla vitae eget nunc. Morbi aliquet lacus risus, eget placerat nibh vestibulum et. Nam eu justo eget turpis ullamcorper pretium vitae sit amet velit. Phasellus ornare malesuada mauris, non dapibus nisi egestas at.
-		</p>
-		<p>
-			Nulla velit diam, consequat eget lacus et, posuere venenatis sapien. Donec vehicula diam quis velit bibendum tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque varius posuere purus ut ornare. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi faucibus enim at sollicitudin pulvinar. Vivamus lobortis felis est, ut elementum nunc scelerisque vel. Suspendisse vehicula feugiat lectus vel pharetra. Cras vel purus pretium, dignissim sem id, lacinia enim. 
-		</p>
+		<!--columns-->
+		
+		<div id="col2">
+			<p>
+				Curabitur a mattis tellus. Nullam consequat urna ex, vel lobortis leo scelerisque ut. Aliquam sit amet ultrices neque. Sed convallis feugiat lorem eget scelerisque. Morbi at libero ac turpis mattis fringilla vitae eget nunc. Morbi aliquet lacus risus, eget placerat nibh vestibulum et. Nam eu justo eget turpis ullamcorper pretium vitae sit amet velit. Phasellus ornare malesuada mauris, non dapibus nisi egestas at.
+			</p>
+			<p>
+				Nullam gravida pulvinar tortor. Donec est nulla, lobortis in tempor sit amet, pretium ut leo. Integer congue arcu lacus, at faucibus arcu faucibus et. Nunc pellentesque ornare erat, at faucibus ante aliquet lobortis. Ut rhoncus sed mi quis ullamcorper. Aenean eget quam id diam rhoncus porta non eu justo. Nunc tincidunt euismod tortor, at accumsan ante rutrum fringilla. Ut lacus lorem, sagittis vitae velit vel, bibendum molestie magna. Aliquam sit amet luctus ante. Praesent egestas tellus sed arcu lobortis semper. Quisque interdum mauris vitae consequat ornare.
+			</p>
+			<div id="col2">
+				<p>
+					Nulla velit diam, consequat eget lacus et, posuere venenatis sapien. Donec vehicula diam quis velit bibendum tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque varius posuere purus ut ornare. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi faucibus enim at sollicitudin pulvinar. Vivamus lobortis felis est, ut elementum nunc scelerisque vel. Suspendisse vehicula feugiat lectus vel pharetra. Cras vel purus pretium, dignissim sem id, lacinia enim. 
+				</p>
+			</div>
+		</div>
 	</div>
 
 	<footer>
 		<p>Tolles Footer!</p>
 	</footer>
-</div>
 
 </body>
 </html>

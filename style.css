@@ -1,0 +1,101 @@
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, sans-serif;
+}
+
+/* also koennen wir alles sehen */
+nav, header, footer, div
+{
+	margin:0;
+}
+
+header
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+nav
+{
+	width: 100%;
+}
+
+/* li Elementen im nav */
+.nav-menu 
+{
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: initial;
+}
+
+.nav-menu li {
+	float: left;
+	padding: 1em 0 1em 0;
+	position: relative;
+	display: block;
+	margin: 0;
+	margin-right: 0.5em;
+	border-top: solid 2px gray;
+	border-bottom: solid 2px gray;
+}
+
+.nav-menu li a
+{
+	float: left;
+	height: 1.5em;
+	padding: 0 1.5em;
+	margin: 0;
+}
+
+div.hauptinhalt
+{
+	float:top;
+	position: relative;
+	background-color: white;
+	padding: 1em;
+	margin: 0;
+	margin-top: 30%;/* 10em; */
+}
+
+span.emph
+{
+	color: blue;
+}
+
+#col2 {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+
+
+img.logo
+{
+	float:left;
+	margin: 1em;
+}
+
+img.gbild
+{
+	
+	margin: 0px;
+	width: 100%;
+	position: absolute;
+}
+
+footer
+{
+	clear:both;
+}
+
+div.clear-both
+{
+	clear: both;
+}
