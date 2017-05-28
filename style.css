@@ -74,7 +74,12 @@ span.emph
 	column-count: 2;
 }
 
-
+img.gif-display
+{
+	margin-left: auto;
+	margin-right: auto;	
+	display: block;
+}
 
 img.logo
 {
