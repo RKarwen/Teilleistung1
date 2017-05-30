@@ -32,25 +32,31 @@ nav
 	padding: 0;
 	margin: 0;
 	position: initial;
+	
 }
 
-.nav-menu li {
-	float: left;
-	padding: 1em 0 1em 0;
-	position: relative;
+.nav-menu a li {
+	padding: 1em 0.5em 1em 0.5em;
 	display: block;
 	margin: 0;
-	margin-right: 0.5em;
-	border-top: solid 2px gray;
+	
 	border-bottom: solid 2px gray;
 }
 
-.nav-menu li a
+.nav-menu a
 {
 	float: left;
-	height: 1.5em;
-	padding: 0 1.5em;
+	height: 4.1em;
+	padding: 0;
 	margin: 0;
+	margin-left: 0.5em;
+	display:block;
+	position: relative;
+}
+
+.nav-menu a li:hover
+{
+	background-color: #cfcfcf;
 }
 
 div.hauptinhalt
@@ -76,8 +82,9 @@ span.emph
 
 img.gif-display
 {
-	margin-left: auto;
-	margin-right: auto;	
+	float: left;
+	width: 32em;
+	margin: 1em;
 	display: block;
 }
 
@@ -93,6 +100,11 @@ img.gbild
 	margin: 0px;
 	width: 100%;
 	position: absolute;
+}
+
+video
+{
+	width: 24em;
 }
 
 footer
