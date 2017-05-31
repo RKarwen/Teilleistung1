@@ -32,7 +32,6 @@ nav
 	padding: 0;
 	margin: 0;
 	position: initial;
-	
 }
 
 .nav-menu a li {
@@ -66,7 +65,8 @@ div.hauptinhalt
 	background-color: white;
 	padding: 1em;
 	margin: 0;
-	margin-top: 30%;/* 10em; */
+	margin-top: 30%; 
+	min-height: 20em;
 }
 
 span.emph
@@ -80,12 +80,29 @@ span.emph
 	column-count: 2;
 }
 
+div.colbox {
+	display:inline-block;
+	/*column-width: 20em;*/
+	padding: 0.5em;
+	border: solid 1px black;
+}
+
+div.colbox img {
+	float: left;
+	
+}
+
 img.gif-display
 {
 	float: left;
 	width: 32em;
 	margin: 1em;
 	display: block;
+}
+
+.kleinbild
+{
+	height: 24em;
 }
 
 img.logo
