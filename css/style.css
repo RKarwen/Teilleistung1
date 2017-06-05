@@ -12,6 +12,11 @@ nav, header, footer, div
 	margin:0;
 }
 
+a
+{
+	color: #A88C00;
+}
+
 header
 {
 	padding: 0px;
@@ -52,6 +57,7 @@ nav
 	margin-left: 0.5em;
 	display:block;
 	position: relative;
+	text-decoration: none;
 }
 
 .nav-menu a li:hover
@@ -162,11 +168,19 @@ h1.shadowgibts
 footer
 {
 	display: block;
-	padding: 10px;
+	padding: 0.5em;
+	height: 2em;
+	margin:0em;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	clear:both;
+	background-color: #ffffff;
+}
+
+footer.hauptfooter
+{
+	position: fixed;
 }
 
 div.clear-both
