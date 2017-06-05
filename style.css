@@ -65,8 +65,11 @@ div.hauptinhalt
 	background-color: white;
 	padding: 1em;
 	margin: 0;
-	margin-top: 30%; 
 	min-height: 20em;
+}
+
+div.grosstopmargin {
+	margin-top: 30%; 
 }
 
 span.emph
@@ -90,6 +93,13 @@ div.colbox {
 div.colbox img {
 	float: left;
 	
+}
+
+video
+{
+	float: left;
+	margin: 1em;
+	display:block;
 }
 
 img.gif-display
