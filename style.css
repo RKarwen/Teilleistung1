@@ -18,10 +18,10 @@ header
 	margin: 0px;
 }
 
-
 nav
 {
 	width: 100%;
+	border-bottom: solid 1px #A88C00;	
 }
 
 /* li Elementen im nav */
@@ -32,6 +32,7 @@ nav
 	padding: 0;
 	margin: 0;
 	position: initial;
+	
 }
 
 .nav-menu a li {
@@ -60,27 +61,31 @@ nav
 
 div.hauptinhalt
 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+div.haupthintergrunt
+{
 	float:top;
 	position: relative;
-	background-color: white;
-	padding: 1em;
+	padding: 0em;
 	margin: 0;
 	min-height: 20em;
+	background-color: #efefef;
 }
 
-div.grosstopmargin {
-	margin-top: 30%; 
+div.hauptseiteinhalt
+{
+	position: relative;
 }
 
-span.emph
+span.emph, h2
 {
 	color: #A88C00;
-}
-
-.col2 {
-	-moz-column-count: 2;
-	-webkit-column-count: 2;
-	column-count: 2;
 }
 
 div.colbox {
@@ -97,14 +102,13 @@ div.colbox img {
 
 video
 {
-	float: left;
 	margin: 1em;
 	display:block;
+	width: 32em;
 }
 
 img.gif-display
 {
-	float: left;
 	width: 32em;
 	margin: 1em;
 	display: block;
@@ -113,6 +117,27 @@ img.gif-display
 .kleinbild
 {
 	height: 24em;
+}
+
+.kleinerbild
+{
+	height: 9em;
+}
+
+div.quote
+{
+	font-style: oblique;
+	padding: 1em;
+	margin-left: 2em;
+	margin-right: 2em;	
+	display: block;
+	float: center;
+}
+
+div.left
+{
+	float: left;
+	margin: 1em;
 }
 
 img.logo
@@ -129,17 +154,56 @@ img.gbild
 	position: absolute;
 }
 
-video
+h1.shadowgibts
 {
-	width: 24em;
+	text-shadow: gray 0.1em 0.1em 0.2em;
 }
 
 footer
 {
+	display: block;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	clear:both;
 }
 
 div.clear-both
 {
 	clear: both;
+}
+
+
+/* kontakt form dinge */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #DAA520;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #FFD700;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
